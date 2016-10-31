@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+  </head>
+  <body>
+    <% @addresses.each do |address| %>
+    <li>
+      Address: <%= address.address %>
+      Email: <%= address.email %>
+    </li>
+    <% end %>
+  </body>
+</html>
