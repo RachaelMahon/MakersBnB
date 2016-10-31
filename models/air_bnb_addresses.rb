@@ -9,6 +9,6 @@ class Addresses
   property :email,    String
 end
 
-DataMapper.setup(:default, "postgres://localhost/air_bnb_addresses")
+DataMapper.setup(:default, "postgres://localhost/#{ENV['RACK_ENV']}")
 DataMapper.finalize
 DataMapper.auto_upgrade!
