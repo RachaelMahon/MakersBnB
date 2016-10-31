@@ -8,3 +8,6 @@ gem 'dm-transactions'
 gem 'rspec'
 gem 'sinatra'
 gem 'capybara'
+
+
+#Hi testing merge commits. We shouldn't have to explain the problems here. 
