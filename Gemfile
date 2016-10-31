@@ -8,4 +8,7 @@ gem 'dm-postgres-adapter'
 gem 'dm-transactions'
 gem 'rspec'
 gem 'sinatra'
-gem 'capybara'
+gem 'capyblfrsara'
+gem 'rspec-sinatra'
+
+#Hi testing merge commits. We shouldn't have to explain the problems here.
