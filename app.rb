@@ -1,4 +1,7 @@
+ENV['RACK_ENV'] ||= "development"
+
 require 'sinatra/base'
+require_relative './models/air_bnb_addresses'
 
 class MakersBnB < Sinatra::Base
   get '/' do
